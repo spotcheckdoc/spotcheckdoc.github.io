@@ -68,6 +68,8 @@ $(function() {
 <div class="title">backend Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="backend_8hpp_source.html">backend.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for backend:</div>
 <div class="dyncontent">
@@ -84,8 +86,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aa165cfc3da158f073832ef1f6ce4e1b8"><td class="memItemLeft" align="right" valign="top"><a id="aa165cfc3da158f073832ef1f6ce4e1b8"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>callback_info</b> = v8::FunctionCallbackInfo&lt; v8::Value &gt;</td></tr>
+<tr class="memitem:aa165cfc3da158f073832ef1f6ce4e1b8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> = v8::FunctionCallbackInfo&lt; v8::Value &gt;</td></tr>
 <tr class="separator:aa165cfc3da158f073832ef1f6ce4e1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -93,52 +94,66 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a44ff4b919d81243742ff4b4bedde4f83"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a44ff4b919d81243742ff4b4bedde4f83">init</a> (v8::Local&lt; v8::Object &gt; exports, v8::Local&lt; v8::Object &gt; module)</td></tr>
 <tr class="memdesc:a44ff4b919d81243742ff4b4bedde4f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the backend module.  <a href="#a44ff4b919d81243742ff4b4bedde4f83">More...</a><br /></td></tr>
 <tr class="separator:a44ff4b919d81243742ff4b4bedde4f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e8157df648d308880c4ec62adc426fb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a9e8157df648d308880c4ec62adc426fb">alloc</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:a9e8157df648d308880c4ec62adc426fb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a9e8157df648d308880c4ec62adc426fb">alloc</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:a9e8157df648d308880c4ec62adc426fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates a new backend object.  <a href="#a9e8157df648d308880c4ec62adc426fb">More...</a><br /></td></tr>
 <tr class="separator:a9e8157df648d308880c4ec62adc426fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516007959f2bc8b4f5f83d1a448a6090"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a516007959f2bc8b4f5f83d1a448a6090">import_source_image</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:a516007959f2bc8b4f5f83d1a448a6090"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a516007959f2bc8b4f5f83d1a448a6090">import_source_image</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:a516007959f2bc8b4f5f83d1a448a6090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports the source image into the backend.  <a href="#a516007959f2bc8b4f5f83d1a448a6090">More...</a><br /></td></tr>
 <tr class="separator:a516007959f2bc8b4f5f83d1a448a6090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63f2bdc2cb5376f087935230f6b7831d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a63f2bdc2cb5376f087935230f6b7831d">import_source_gal</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:a63f2bdc2cb5376f087935230f6b7831d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a63f2bdc2cb5376f087935230f6b7831d">import_source_gal</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:a63f2bdc2cb5376f087935230f6b7831d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports the source gal into the backend.  <a href="#a63f2bdc2cb5376f087935230f6b7831d">More...</a><br /></td></tr>
 <tr class="separator:a63f2bdc2cb5376f087935230f6b7831d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b212ebed9184a5818c9ce81b5513a3c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a3b212ebed9184a5818c9ce81b5513a3c">split_sectors</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:a3b212ebed9184a5818c9ce81b5513a3c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a3b212ebed9184a5818c9ce81b5513a3c">split_sectors</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:a3b212ebed9184a5818c9ce81b5513a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits the backend's heightmap into smaller chunks.  <a href="#a3b212ebed9184a5818c9ce81b5513a3c">More...</a><br /></td></tr>
 <tr class="separator:a3b212ebed9184a5818c9ce81b5513a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3831c36d689d4a5dfa696902c6cac0d1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a3831c36d689d4a5dfa696902c6cac0d1">clear_targets</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:a3831c36d689d4a5dfa696902c6cac0d1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a3831c36d689d4a5dfa696902c6cac0d1">clear_targets</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:a3831c36d689d4a5dfa696902c6cac0d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the backend's analysis targets.  <a href="#a3831c36d689d4a5dfa696902c6cac0d1">More...</a><br /></td></tr>
 <tr class="separator:a3831c36d689d4a5dfa696902c6cac0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adea4e670e5c1e84d295c5cd03deceb4a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#adea4e670e5c1e84d295c5cd03deceb4a">launch_analysis</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:adea4e670e5c1e84d295c5cd03deceb4a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#adea4e670e5c1e84d295c5cd03deceb4a">launch_analysis</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:adea4e670e5c1e84d295c5cd03deceb4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launches analysis on all of the backend's analysis targets.  <a href="#adea4e670e5c1e84d295c5cd03deceb4a">More...</a><br /></td></tr>
 <tr class="separator:adea4e670e5c1e84d295c5cd03deceb4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23963a7c7e73bba71cbf77e27224efd8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a23963a7c7e73bba71cbf77e27224efd8">analyze_target</a> (<a class="el" href="structbackend_1_1_target.html">Target</a> &amp;target, cv::Mat &amp;src, cv::Mat &amp;mask)</td></tr>
 <tr class="memdesc:a23963a7c7e73bba71cbf77e27224efd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs analysis on a single analysis target.  <a href="#a23963a7c7e73bba71cbf77e27224efd8">More...</a><br /></td></tr>
 <tr class="separator:a23963a7c7e73bba71cbf77e27224efd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac981fabc3077c133dca35b5cb7e6f66c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#ac981fabc3077c133dca35b5cb7e6f66c">add_target</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:ac981fabc3077c133dca35b5cb7e6f66c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#ac981fabc3077c133dca35b5cb7e6f66c">add_target</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:ac981fabc3077c133dca35b5cb7e6f66c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an analysis target to the backend.  <a href="#ac981fabc3077c133dca35b5cb7e6f66c">More...</a><br /></td></tr>
 <tr class="separator:ac981fabc3077c133dca35b5cb7e6f66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a827177f07a64774f20057d1704e43a5b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a827177f07a64774f20057d1704e43a5b">get_target_thresh</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:a827177f07a64774f20057d1704e43a5b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a827177f07a64774f20057d1704e43a5b">get_target_thresh</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:a827177f07a64774f20057d1704e43a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the threshold value for a target.  <a href="#a827177f07a64774f20057d1704e43a5b">More...</a><br /></td></tr>
 <tr class="separator:a827177f07a64774f20057d1704e43a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91fe1ff0bbdc9e29d6958e0cf72d10ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a91fe1ff0bbdc9e29d6958e0cf72d10ba">write_results_JSON</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:a91fe1ff0bbdc9e29d6958e0cf72d10ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a91fe1ff0bbdc9e29d6958e0cf72d10ba">write_results_JSON</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:a91fe1ff0bbdc9e29d6958e0cf72d10ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the backend's results to a JSON format.  <a href="#a91fe1ff0bbdc9e29d6958e0cf72d10ba">More...</a><br /></td></tr>
 <tr class="separator:a91fe1ff0bbdc9e29d6958e0cf72d10ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a567b1f81aaa959b25ab5448752a5a371"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a567b1f81aaa959b25ab5448752a5a371">update_target_thresh</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:a567b1f81aaa959b25ab5448752a5a371"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a567b1f81aaa959b25ab5448752a5a371">update_target_thresh</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:a567b1f81aaa959b25ab5448752a5a371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the threshold value for an analysis target.  <a href="#a567b1f81aaa959b25ab5448752a5a371">More...</a><br /></td></tr>
 <tr class="separator:a567b1f81aaa959b25ab5448752a5a371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4a237c847f3bdc527b7bf01f2fa1974"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#aa4a237c847f3bdc527b7bf01f2fa1974">provide_norm_preview</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:aa4a237c847f3bdc527b7bf01f2fa1974"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#aa4a237c847f3bdc527b7bf01f2fa1974">provide_norm_preview</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:aa4a237c847f3bdc527b7bf01f2fa1974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a preview of the entire heighmap.  <a href="#aa4a237c847f3bdc527b7bf01f2fa1974">More...</a><br /></td></tr>
 <tr class="separator:aa4a237c847f3bdc527b7bf01f2fa1974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea5762a8de17d93aadb8d1a870e1474d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#aea5762a8de17d93aadb8d1a870e1474d">is_busy</a> (const callback_info &amp;args)</td></tr>
+<tr class="memitem:aea5762a8de17d93aadb8d1a870e1474d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#aea5762a8de17d93aadb8d1a870e1474d">is_busy</a> (const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;args)</td></tr>
 <tr class="memdesc:aea5762a8de17d93aadb8d1a870e1474d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queries whether the backend is working on analysis targets.  <a href="#aea5762a8de17d93aadb8d1a870e1474d">More...</a><br /></td></tr>
 <tr class="separator:aea5762a8de17d93aadb8d1a870e1474d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a2e36e089be85fa5fcdec6d9ab50c3199"><td class="memItemLeft" align="right" valign="top"><a id="a2e36e089be85fa5fcdec6d9ab50c3199"></a>
-static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>constructor</b></td></tr>
+<tr class="memitem:a2e36e089be85fa5fcdec6d9ab50c3199"><td class="memItemLeft" align="right" valign="top">static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbackend.html#a2e36e089be85fa5fcdec6d9ab50c3199">constructor</a></td></tr>
 <tr class="separator:a2e36e089be85fa5fcdec6d9ab50c3199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aa165cfc3da158f073832ef1f6ce4e1b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa165cfc3da158f073832ef1f6ce4e1b8">&#9670;&nbsp;</a></span>callback_info</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">backend::callback_info</a> =  v8::FunctionCallbackInfo&lt;v8::Value&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac981fabc3077c133dca35b5cb7e6f66c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac981fabc3077c133dca35b5cb7e6f66c">&#9670;&nbsp;</a></span>add_target()</h2>
@@ -152,7 +167,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::add_target </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -181,7 +196,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::alloc </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -264,7 +279,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::clear_targets </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -293,7 +308,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::get_target_thresh </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -322,7 +337,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::import_source_gal </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -352,7 +367,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::import_source_image </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -420,7 +435,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::is_busy </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -449,7 +464,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::launch_analysis </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -478,7 +493,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::provide_norm_preview </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -507,7 +522,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::split_sectors </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -536,7 +551,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::update_target_thresh </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -565,7 +580,7 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
         <tr>
           <td class="memname">void backend::write_results_JSON </td>
           <td>(</td>
-          <td class="paramtype">const callback_info &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classbackend.html#aa165cfc3da158f073832ef1f6ce4e1b8">callback_info</a> &amp;&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
@@ -582,9 +597,32 @@ static v8::Persistent&lt; v8::Function &gt;&#160;</td><td class="memItemRight" v
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2e36e089be85fa5fcdec6d9ab50c3199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e36e089be85fa5fcdec6d9ab50c3199">&#9670;&nbsp;</a></span>constructor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">v8::Persistent&lt; v8::Function &gt; backend::constructor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="backend_8hpp_source.html">backend.hpp</a></li>
-<li>backend.cpp</li>
+<li><a class="el" href="backend_8cpp.html">backend.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
