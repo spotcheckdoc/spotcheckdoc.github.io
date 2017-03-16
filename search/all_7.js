@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['js_5fcb',['js_cb',['../async_8hpp.html#aa0cd468f1012e2fa22b824f35890caa6',1,'async.hpp']]],
-  ['js_5fpersist_5fcb',['js_persist_cb',['../async_8hpp.html#a711cca243fbc83899b2042512990bf45',1,'async.hpp']]]
+  ['provide_5fnorm_5fpreview',['provide_norm_preview',['../classbackend.html#aa4a237c847f3bdc527b7bf01f2fa1974',1,'backend']]]
 ];
