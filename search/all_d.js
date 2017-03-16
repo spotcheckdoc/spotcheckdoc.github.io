@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['target',['Target',['../structbackend_1_1_target.html',1,'backend']]],
-  ['task_5fmtx',['task_mtx',['../backend_8cpp.html#aaadbd76ab6c073b2e3888a827b01a8dc',1,'backend.cpp']]],
-  ['threshold',['threshold',['../structbackend_1_1_target.html#a89d5a494c6baf04c5d64443d9c7bf3f6',1,'backend::Target']]]
+  ['work',['work',['../structasync_1_1work.html',1,'async']]],
+  ['write_5fresults_5fjson',['write_results_JSON',['../classbackend.html#a91fe1ff0bbdc9e29d6958e0cf72d10ba',1,'backend']]]
 ];
